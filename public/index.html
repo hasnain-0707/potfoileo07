@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="dark-theme">
+
+    <nav class="navbar navbar-expand-md navmain position-sticky top-0 z-3 px-3 py-2">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <span class="fw-bold fs-4 text-primary d-inline d-sm-none">HT</span>
+                <span class="fw-bold fs-4 text-primary d-none d-sm-inline">Hasnain Tahir</span>
+            </a>
+
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list fs-1 text-primary"></i>
+            </button>
+
+            <!-- Navbar Links & Buttons -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+                <!-- Navigation Links -->
+                <ul class="navbar-nav mx-auto text-center gap-md-4 my-3 my-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold nav2 px-0" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold nav2 px-0" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold nav2 px-0" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold nav2 px-0" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold nav2 px-0" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- CTA and Theme Toggle -->
+                <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3">
+                    <button class="btn btn-dark theme-toggle border border-2 rounded-pill px-3 shadow-sm" title="Toggle Theme" type="button">
+                        <i class="bi bi-moon-fill"></i>
+                    </button>
+                    <a href="potifoile2contant.html" class="btn btn-primary btn1 rounded-pill px-4 fw-semibold shadow-sm w-100 w-md-auto">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Professional Hero Section -->
+    <div id="home" class="container hero-section mt-4 mb-5 pt-md-4">
+        <div class="row align-items-center min-vh-75">
+            <!-- Text Content -->
+            <div class="col-12 col-lg-6 order-1 order-lg-1 mt-5 mt-lg-0 text-center text-lg-start slide-up-anim">
+                <h1 class="display-3 fw-bolder mb-3 animate-slide-up">
+                    Hi, I'm <span class="text-gradient position-relative z-1 d-inline-block">Hasnain Tahir
+                        <!-- Highlight SVG -->
+                        <svg class="position-absolute bottom-0 start-0 z-n1 w-100" viewBox="0 0 100 20" preserveAspectRatio="none" style="height: 15px; fill: rgba(14, 165, 233, 0.18);"><path d="M0 10 Q 50 20 100 10 L 100 20 L 0 20 Z"></path></svg>
+                    </span><br>
+                    <span class="fs-2 text-secondary fw-bold typewriter-text" aria-live="polite"></span>
+                </h1>
+                <div class="mobile-hero-image d-lg-none position-relative text-center mb-4">
+                    <img src="images/pick/profile.jpg" alt="Rao Hasnain profile" class="img-fluid hero-img shadow-lg border border-4 border-white">
+                    <div class="hero-badge hero-badge-react-dev">React Developer</div>
+                    <div class="hero-badge hero-badge-fullstack">Full Stack Developer</div>
+                </div>
+                <p class="lead mb-4 text-muted animate-fade-in" style="font-weight: 400; max-width: 600px; margin: 0 auto;">
+                    I build clean, responsive, and conversion-focused digital experiences for brands and businesses. My focus is on elegant interfaces, strong user experience, and modern web solutions that turn ideas into results.
+                </p>
+                
+                <!-- Social Links -->
+                <div class="d-flex gap-3 justify-content-center justify-content-lg-start mb-4 animate-slide-up">
+                    <a href="https://www.facebook.com/Rao%20Hasnain" class="social-link shadow-sm" aria-label="Facebook" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/Rao%20Hasnain" class="social-link shadow-sm" aria-label="Instagram" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rao-hasnain" class="social-link shadow-sm" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://wa.me/03413500838" class="social-link shadow-sm"><i class="bi bi-whatsapp"></i></a>
+                </div>
+                
+                <!-- CTA Buttons -->
+                <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start animate-slide-up">
+                    <a href="potifoile2contant.html" class="btn btn-primary btn1 px-5 py-3 rounded-pill shadow-sm fw-bold">Contact Me <i class="bi bi-arrow-right ms-2"></i></a>
+                    <button class="btn btn-outline-primary btn1 px-5 py-3 rounded-pill fw-bold">Download CV <i class="bi bi-download ms-2"></i></button>
+                </div>
+            </div>
+
+            <!-- Image Section with Gradient Blob -->
+            <div class="col-12 col-lg-6 order-2 order-lg-2 d-none d-lg-block text-center position-relative mb-5 mb-lg-0 animate-fade-in">
+                <!-- Decorative Red Gradient Background -->
+                <div class="position-absolute top-50 start-50 translate-middle gradient-blob z-n1"></div>
+                
+                <div class="image-wrapper d-inline-block position-relative z-1">
+                    <img src="images/pick/profile.jpg" alt="Rao Hasnain profile" class="img-fluid hero-img shadow-lg border border-4 border-white">
+                </div>
+                <div class="hero-badge hero-badge-react-dev">React Developer</div>
+                <div class="hero-badge hero-badge-fullstack">Full Stack Developer</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <section id="about" class="text-white mt-5 py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 class="text-primary main3">About Me</h1>
+                <p class="text-muted">Learn more about my skills, experience & my personal</p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 text-center order-1 order-md-1 mb-4 mb-md-0">
+                    <img src="images/pick/profile.jpg" alt="Rao Hasnain profile" class="about-profile-img img-fluid rounded">
+                </div>
+                <div class="col-12 col-md-6 order-2 order-md-2">
+                    <h2 class="fw-bold mb-4">Full Stack Web Developer with 1 Year of experience</h2>
+                    <p class="text-muted mb-4">
+                        I am a Full Stack Web Developer with 1 year of experience building responsive and reliable web applications. I create polished interfaces with HTML, CSS, JavaScript, and Bootstrap, then connect them to Node.js, Express.js, APIs, and databases.
+                        My focus is clean code, practical user experiences, and complete solutions from frontend to backend.
+                    </p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="about-skill-badge">HTML5</span>
+                        <span class="about-skill-badge">CSS3</span>
+                        <span class="about-skill-badge">JS</span>
+                        <span class="about-skill-badge">Responsive Designer</span>
+                        <span class="about-skill-badge">Node.js</span>
+                        <span class="about-skill-badge">Express.js</span>
+                        <span class="about-skill-badge">API Developer</span>
+                        <span class="about-skill-badge">C/C++</span>
+                        <span class="about-skill-badge">MongoDB</span>
+                        <span class="about-skill-badge">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="projects" class="projects-section container-fluid">
+        <div class="section-heading text-center mt-5 mb-5">
+            <span class="section-kicker">SELECTED WORK</span>
+            <h1 class="text-primary main3">Projects built with purpose</h1>
+            <p class="text-muted">A few recent ideas turned into useful digital experiences.</p>
+        </div>
+        <div class="row gap-5 justify-content-around">
+            <div class="col-11 col-md-5 col-lg-3 ">
+                <div class="card project-card h-100 div6">
+                    <div class="card-img-top">
+                        <img src="images/pick/download (11).jpg" class="img-fluid mx-auto  ">
+                    </div>
+                    <div class="card-body project-body alain-items-center">
+                        <span class="project-type">WEB APPLICATION</span>
+                        <h2 class="text-dark" v>E-commerce Platform</h2>
+                        <p>A full-featured e-commerce platform with a responsive storefront, product browsing, and a scalable backend foundation built with JavaScript and Bootstrap.
+                        </p>
+                        <div class="d-grid">
+                            <button class="rounded-pill bg-primary project-action">View Project <i class="bi bi-arrow-up-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-11 col-md-5 col-lg-3 ">
+                <div class="card project-card div6">
+                    <div class="card-img-top">
+                        <img src="images/pick/download (9).jpg" class="img-fluid mx-auto ">
+                    </div>
+                    <div class="card-body project-body align-items-center ">
+                        <span class="project-type">DESKTOP APPLICATION</span>
+                        <h2 class="text-dark">Bank Management System</h2>
+                        <p>A banking management system focused on customer records, account workflows, and transaction operations with a responsive Bootstrap interface.
+                        </p>
+                        <div class="d-grid mt-0">
+                            <button class="rounded-pill bg-primary project-action">View Project <i class="bi bi-arrow-up-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-11 col-md-5 col-lg-3 ">
+                <div class="card project-card h-100 div6">
+                    <div class="card-img-top">
+                        <img src="images/pick/download (10).jpg" class="img-fluid mx-auto ">
+                    </div>
+                    <div class="card-body project-body alain-item-center">
+                        <span class="project-type">MOBILE CONCEPT</span>
+                        <h2 class="text-dark">EasyPasy App</h2>
+                        <p>A digital payments app concept with a clear mobile-first experience, intuitive payment flows, and a foundation ready for API integration.</p>
+                        <div class="d-grid">
+                            <button class="rounded-pill bg-primary project-action alain-item-center">View Project <i class="bi bi-arrow-up-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <section class="services-section container-fluid mt-5">
+        <div class="section-heading text-center">
+            <span class="section-kicker">WHAT I DO</span>
+            <h1 class="text-primary main3">Services for modern brands</h1>
+            <p class="text-muted">From first sketch to final launch, I create digital work that feels considered.</p>
+        </div>
+        <div class="row mt-5 gap-5 justify-content-around ">
+            <div class="col-12 col-md-5 col-lg-3 ">
+                <div class="card service-card div5 ">
+                    <div class="service-icon"><i class="bi bi-display"></i></div>
+                    <div class="card-body">
+                        <span class="service-number">01</span>
+                        <h2>Web Development</h2>
+                        <p>Custom web applications built with modern technologies like JS, HTML, CSS and Bootstrap for strong performance and user experience.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-3 ">
+                <div class="card service-card div5">
+                    <div class="service-icon"><i class="bi bi-palette"></i></div>
+                    <div class="card-body">
+                        <span class="service-number">02</span>
+                        <h2>Backend &amp; API Development</h2>
+                        <p>Reliable server-side features, REST APIs, and database integrations that connect user interfaces to useful products.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-5 col-lg-3 ">
+                <div class="card service-card div5">
+                    <div class="service-icon"><i class="bi bi-phone"></i></div>
+                    <div class="card-body">
+                        <span class="service-number">03</span>
+                        <h2>Responsive Design</h2>
+                        <p>Interfaces that look and function beautifully across desktop, tablet, and mobile screens.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section container-fluid mt-5 py-5">
+        <div class="skills-heading text-center mb-5">
+            <span class="section-kicker">MY TOOLKIT</span>
+            <h1 class="text-primary main3">Skills that bring ideas to life</h1>
+            <p class="text-muted">A practical mix of development, problem-solving, and creative design.</p>
+        </div>
+
+        <div class="row g-4 justify-content-center px-3">
+            <!-- Requested technology stack -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="card div5 skill-card h-100"><div class="skill-icon-wrap"><img class="skill-icon img-fluid" src="images/pick/images (4).jpg" alt="HTML5"></div><div class="card-body text-center skill-body"><div class="skill-meta"><h3>HTML5</h3><span>99%</span></div><div class="progress skill-progress mt-3"><div class="progress-bar w-100 bg-primary" style="width: 99%">99%</div></div></div></div></div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="card div5 skill-card h-100"><div class="skill-icon-wrap"><img class="skill-icon img-fluid" src="images/pick/download.png" alt="CSS3"></div><div class="card-body text-center skill-body"><div class="skill-meta"><h3>CSS3</h3><span>98%</span></div><div class="progress skill-progress mt-3"><div class="progress-bar w-100 bg-primary" style="width: 98%">98%</div></div></div></div></div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="card div5 skill-card h-100"><div class="skill-icon-wrap"><img class="skill-icon img-fluid" src="images/pick/download (4).png" alt="JavaScript"></div><div class="card-body text-center skill-body"><div class="skill-meta"><h3>JavaScript</h3><span>Basic</span></div><div class="progress skill-progress mt-3"><div class="progress-bar w-100 bg-primary" style="width: 60%">Basic</div></div></div></div></div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="card div5 skill-card h-100"><div class="skill-icon-wrap"><img class="skill-icon img-fluid" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Responsive Designer"></div><div class="card-body text-center skill-body"><div class="skill-meta"><h3>Responsive Designer</h3><span>95%</span></div><div class="progress skill-progress mt-3"><div class="progress-bar w-100 bg-primary" style="width: 95%">95%</div></div></div></div></div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="card div5 skill-card h-100"><div class="skill-icon-wrap"><img class="skill-icon img-fluid" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"></div><div class="card-body text-center skill-body"><div class="skill-meta"><h3>Node.js</h3><span>Basic</span></div><div class="progress skill-progress mt-3"><div class="progress-bar w-100 bg-primary" style="width: 50%">Basic</div></div></div></div></div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="card div5 skill-card h-100"><div class="skill-icon-wrap"><img class="skill-icon img-fluid" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js"></div><div class="card-body text-center skill-body"><div class="skill-meta"><h3>Express.js</h3><span>Basic</span></div><div class="progress skill-progress mt-3"><div class="progress-bar w-100 bg-primary" style="width: 45%">Basic</div></div></div></div></div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="card div5 skill-card h-100"><div class="skill-icon-wrap"><img class="skill-icon img-fluid" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="API Developer"></div><div class="card-body text-center skill-body"><div class="skill-meta"><h3>API Developer</h3><span>90%</span></div><div class="progress skill-progress mt-3"><div class="progress-bar w-100 bg-primary" style="width: 90%">90%</div></div></div></div></div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="card div5 skill-card h-100"><div class="skill-icon-wrap"><img class="skill-icon img-fluid" src="images/pick/download (1).png" alt="C and C++"></div><div class="card-body text-center skill-body"><div class="skill-meta"><h3>C/C++</h3><span>95%</span></div><div class="progress skill-progress mt-3"><div class="progress-bar w-100 bg-primary" style="width: 95%">95%</div></div></div></div></div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="card div5 skill-card h-100"><div class="skill-icon-wrap"><img class="skill-icon img-fluid" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"></div><div class="card-body text-center skill-body"><div class="skill-meta"><h3>MongoDB</h3><span>86%</span></div><div class="progress skill-progress mt-3"><div class="progress-bar w-100 bg-primary" style="width: 86%">86%</div></div></div></div></div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="card div5 skill-card h-100"><div class="skill-icon-wrap"><img class="skill-icon img-fluid" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"></div><div class="card-body text-center skill-body"><div class="skill-meta"><h3>MySQL</h3><span>86%</span></div><div class="progress skill-progress mt-3"><div class="progress-bar w-100 bg-primary" style="width: 86%">86%</div></div></div></div></div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section container-fluid mt-5 py-5">
+        <div class="container">
+            <div class="section-heading text-center mb-5">
+                <span class="section-kicker">LET'S CONNECT</span>
+                <h1 class="text-primary main3">Let’s make something meaningful</h1>
+                <p class="text-muted fs-5">Have an idea in mind? Share the details and let’s turn it into a polished digital experience.</p>
+            </div>
+
+            <div class="row align-items-center g-5">
+                <!-- Contact Information -->
+                <div class="col-12 col-md-5">
+                    <div class="contact-panel">
+                        <span class="contact-eyebrow">CONTACT DETAILS</span>
+                        <h3 class="text-white mb-3 fw-bold">Start a conversation</h3>
+                        <p class="contact-intro">I’m open to freelance projects, creative collaborations, and thoughtful conversations about the web.</p>
+                        
+                        <div class="contact-item mb-4 d-flex align-items-start gap-3">
+                            <div class="contact-icon text-primary">
+                                <i class="bi bi-telephone"></i>
+                            </div>
+                            <div>
+                                <h5 class="text-white mb-1">Phone</h5>
+                                <p class="text-muted mb-0">+92 341 35008388</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item mb-4 d-flex align-items-start gap-3">
+                            <div class="contact-icon text-primary">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <div>
+                                <h5 class="text-white mb-1">Email</h5>
+                                <p class="text-muted mb-0">hasnanrao50@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item mb-4 d-flex align-items-start gap-3">
+                            <div class="contact-icon text-primary">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <div>
+                                <h5 class="text-white mb-1">Location</h5>
+                                <p class="text-muted mb-0">Bhakkar, Pakistan</p>
+                            </div>
+                        </div>
+
+                        <!-- Social Links -->
+                        <h5 class="text-white mb-3 mt-5 fw-bold">Follow Me</h5>
+                        <div class="d-flex gap-3 contact-socials">
+                            <a href="https://www.facebook.com/Rao%20Hasnain" class="social-link" title="Facebook" target="_blank" rel="noopener">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/Rao%20Hasnain" class="social-link" title="Instagram" target="_blank" rel="noopener">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="social-link" title="Twitter" target="_blank" rel="noopener">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="https://wa.me/03413500838" class="social-link" title="WhatsApp" target="_blank" rel="noopener">
+                                <i class="bi bi-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-12 col-md-7">
+                    <form class="contact-form p-4">
+                        <div class="mb-3">
+                            <label for="name" class="form-label text-white fw-semibold">Your Name</label>
+                            <input type="text" class="form-control form-control-lg" id="name" placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-white fw-semibold">Your Email</label>
+                            <input type="email" class="form-control form-control-lg" id="email" placeholder="Enter your email address" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="subject" class="form-label text-white fw-semibold">Subject</label>
+                            <input type="text" class="form-control form-control-lg" id="subject" placeholder="Project discussion / Hi" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="message" class="form-label text-white fw-semibold">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Tell me about your project or how I can help..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg w-100 fw-bold">
+                            <i class="bi bi-send me-2"></i>Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class=" mt-5 bg-secondary">
+        <div class="container">
+            <div class="row text-center text-md-start">
+
+                <div class="col-12 col-md-3 mb-4">
+                    <h5 class="text-dark ">About Me</h5>
+                    <p>I am a Full Stack Web Developer creating responsive interfaces, reliable APIs, and practical web applications from frontend to backend.</p>
+                </div>
+
+                <div class="col-12 col-md-3 mb-4">
+                    <h5 class="text-dark ">Quick Links</h5>
+                    <a class=" text-white " href="#home">Home</a><br>
+                    <a class=" text-white " href="#about">About</a><br>
+                    <a class=" text-white " href="#skills">Skills</a><br>
+                    <a class=" text-white " href="#projects">Portfolio</a><br>
+                    <a class=" text-white " href="#contact">Contact</a><br>
+                </div>
+
+                <div class="col-12 col-md-3 mb-4 contact-info">
+                    <h5 class="text-dark ">Contact Info</h5>
+                    <div class="social-icons">
+                        <i class="bi bi-telephone bi-telephon"> +92 341 35008388</i><br>
+                        <i class="bi bi-envelope"> hasnanrao50@gmail.com</i><br>
+                        <i class="bi bi-geo-alt-fill"> Bhakker, Pakistan</i>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3 mb-4">
+                    <h5 class="text-dark ">Follow Me</h5>
+                    <div class="social-icons footer-socials">
+                        <a href="https://www.instagram.com/Rao%20Hasnain" aria-label="Instagram" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.facebook.com/Rao%20Hasnain" aria-label="Facebook" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
+                        <a href="https://twitter.com/" aria-label="Twitter" target="_blank" rel="noopener"><i class="bi bi-twitter"></i></a>
+                        <a href="https://wa.me/03413500838" aria-label="WhatsApp" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+
+
+
+
+    <footer class=" bg-primary text-center py-3 ">
+        <p class="mb-0">&copy; 2025 Hasnain Tahir | All Rights Reserved</p>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper (Required for navigation toggle) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

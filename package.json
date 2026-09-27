@@ -1,0 +1,17 @@
+{
+  "name": "rao-hasnain-portfolio",
+  "version": "1.0.0",
+  "description": "Rao Hasnain Portfolio Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "web-developer"
+  ],
+  "author": "Rao Hasnain",
+  "license": "MIT"
+}
+
